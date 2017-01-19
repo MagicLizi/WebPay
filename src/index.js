@@ -3,9 +3,7 @@ import './index.html';
 import './index.css';
 import {browserHistory} from 'dva/router';
 // 1. Initialize
-const app = dva({
-  history:browserHistory
-});
+const app = dva();
 
 // 2. Plugins
 // app.use({});
